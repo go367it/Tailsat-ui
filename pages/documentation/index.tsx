@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Routes from './[routes]'
 
 const Documentation = () => {
-    return (
-        <div>
-            hcgjvhkb
-        </div>
-    )
-}
+  return (
+    <div>
+        <Routes />
+    </div>
+  );
+};
 
-export default Documentation
+export default Documentation;
